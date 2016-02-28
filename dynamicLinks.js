@@ -15,6 +15,7 @@ var dynamicLinks = {
     var tempLink = document.createElement('a');
     tempLink.setAttribute('href', linkTarget);
     tempLink.appendChild(document.createTextNode(linkName));
+
     return tempLink;
   },
   appendLink: function(sourceLink, elementId) {
@@ -25,7 +26,10 @@ var dynamicLinks = {
     if(!element){
       element = document.getElementById(elementId);
     }
-    element.appendChild(sourceLink);
+    var newButton = document.createElement('div');
+    newButton.setAttribute('class','blueButton');
+    newButton.appendChild(sourceLink);
+    element.appendChild(newButton);
   }
 };
 window.onload = dynamicLinks.linksInit;
