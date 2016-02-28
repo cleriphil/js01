@@ -26,10 +26,10 @@ var dynamicLinks = {
     if(!element){
       element = document.getElementById(elementId);
     }
-    var newButton = document.createElement('div');
-    newButton.setAttribute('class','blueButton');
-    newButton.appendChild(sourceLink);
-    element.appendChild(newButton);
+    var blueButton = document.createElement('div');
+    blueButton.setAttribute('class','blueButton');
+    blueButton.appendChild(sourceLink);
+    element.appendChild(blueButton);
   }
 };
 window.onload = dynamicLinks.linksInit;

@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+.blueButton {
+  width:200px;
+  height:100px;
+  background:#000099;
+  text-align: center;
+  float: left;
+  border:10px solid teal;
+  margin-right:5px;
+}
+.blueButton a {
+  display:block;
+  color:#999;
+  width:200px;
+  height:100px;
+  font:  normal 30px/80px Arial, Helvetica, sans-serif;
+}
