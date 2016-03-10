@@ -17,3 +17,14 @@ a {
   height:100px;
   font:  normal 30px/80px Arial, Helvetica, sans-serif;
 }
+
+ul#eventsList {
+    list-style-type: none;
+    border: 1px dashed black;
+    width:100px;
+    padding:10px 0 10px 10px;
+}
+
+ul#eventsList li {
+  font: normal 12px/12px Arial, Helvetica, sans-serif;
+}
